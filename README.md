@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SKYLINE AUCTION
 
 Aplicação web para inscrições e sorteios de itens. Em desenvolvimento local, o estado compartilhado fica em `data.json`; em produção, use PostgreSQL por meio de `DATABASE_URL`. Cada navegador salva o Nick informado para a próxima visita.
@@ -45,3 +46,6 @@ Antes de compartilhar o endereço com os participantes, abra **Área do administ
 Cada nome inscrito para um item aparece uma vez no sorteio, qualquer que seja a quantidade pedida. O servidor embaralha os participantes com o gerador criptográfico do Node e percorre a ordem sorteada, atribuindo a cada pessoa até a quantidade solicitada, enquanto houver estoque. Cada item pode ser sorteado uma vez por edição. Quando o leilão é encerrado, o item fica com estoque zerado e deixa de aparecer na página pública; o administrador pode informar uma nova quantidade e publicar o mesmo item na próxima edição. Os resultados anteriores são preservados e identificados pelo número da edição.
 
 Não há contas individuais nem verificação de identidade dos participantes. A senha administrativa protege o painel de controle.
+=======
+# Sistema-de-Leil-o
+>>>>>>> ce2e78e3201c777a27fcac20cf3477c94b61eaaf
