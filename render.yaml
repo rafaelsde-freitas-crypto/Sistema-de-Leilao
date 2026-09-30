@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: skyline-auction
+    runtime: node
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /healthz
+    numInstances: 1
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: skyline-auction-db
+          property: connectionString
+      - key: DATABASE_SSL
+        value: "false"

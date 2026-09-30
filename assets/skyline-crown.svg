@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 100" fill="none">
+  <defs>
+    <linearGradient id="silver" x1="29" y1="15" x2="111" y2="76" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset=".36" stop-color="#bfd2e9"/>
+      <stop offset=".67" stop-color="#f3f7fc"/>
+      <stop offset="1" stop-color="#7189a8"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="28" y1="74" x2="116" y2="83" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#155be6"/>
+      <stop offset=".5" stop-color="#53c4ff"/>
+      <stop offset="1" stop-color="#1768ff"/>
+    </linearGradient>
+    <filter id="glow" x="1" y="47" width="142" height="48" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+  <path d="M19 65 44 22l22 27L72 7l8 42 22-27 24 43-13 8H32l-13-8Z" fill="#6fa8f6" opacity=".22"/>
+  <path d="m20 62 24-41 22 27L72 8l7 40 22-27 24 41-15 9H35l-15-9Z" fill="url(#silver)" stroke="#f3f8ff" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="m44 21 9 37-20 13-13-9 24-41Z" fill="#eaf2fc" opacity=".64"/>
+  <path d="m72 8 7 40-7 13-7-13L72 8Z" fill="#fff" opacity=".9"/>
+  <path d="m101 21 11 49-15-12 4-37Z" fill="#90a8c8" opacity=".76"/>
+  <path d="m72 48 7 8-7 8-7-8 7-8Z" fill="#187dff" stroke="#d7efff" stroke-width="1.5"/>
+  <path d="M26 78c14-11 29-16 46-16s32 5 46 16" stroke="url(#blue)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M26 78c14-11 29-16 46-16s32 5 46 16" stroke="#45aaff" stroke-width="5" stroke-linecap="round" opacity=".75" filter="url(#glow)"/>
+</svg>
