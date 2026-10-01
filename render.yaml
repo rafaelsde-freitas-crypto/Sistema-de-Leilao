@@ -15,3 +15,5 @@ services:
           property: connectionString
       - key: DATABASE_SSL
         value: "false"
+      - key: ADMIN_SETUP_TOKEN
+        sync: false
